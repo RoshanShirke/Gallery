@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple');
+@import './Coloors.css';
+
+body,h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+    padding: 0xp;
+    font-family: 'Press Start 2p', cursive;
+}
+
+body{
+    background-color: var(--LightBlue);
+    min-height: calc(100vh - 5rem);
+    position: relative;
+    padding-bottom: 5rem !important;
+    display: inline-block;
+    width: 100%;
+}
+
+nav{
+    background-color: var(--Blue);
+    
+}
+
+nav .title{
+    padding: 0.75rem;
+    padding-left:0px;
+    color :var(--LightBlue);
+    text-decoration: none;
+    display: inline-block ;
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav .Logo {
+    height:1.75rem;
+    margin-left: 0.75rem;
+}
+
+nav form{
+    display: inline;
+    float: right;
+    padding-top: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+nav .search{
+    font-family: 'Press Start 2p', cursive;
+    padding: 0.25rem 0.75rem;
+    
+}
+
+
+
+nav .search:focus{
+    outline: none !important;
+    border: 1px solid Red; 
+}
+
+.heading{
+    text-align: center;
+    margin: 1.75rem;
+    color: white;
+}
+
+footer{
+    position: absolute;
+    bottom:0px;
+    background-color: aliceblue;
+    width :calc(100% - 1.5rem);
+    padding: 0.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
